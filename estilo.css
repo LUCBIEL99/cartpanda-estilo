@@ -1,0 +1,105 @@
+:root {
+  --default_color: #9c27b0; /* Roxo principal */
+  --white: #ffffff;
+  --black: #000000;
+  --silver: #aaabab;
+
+  --button_color: #ff0000; /* Botão vermelho */
+  --button_text_color: #ffffff;
+
+  --box_left_bg: #fbfbfb;
+
+  --header_fixed: sticky;
+  --header_top: 0px;
+
+  --line_ds: block;
+  --movcolor: rgbAnimation;
+  --line_height: 5px;
+  --line_bg: linear-gradient(160deg, 
+    #9c27b0,
+    #e91e63 38%,
+    #ffeb3b 60%,
+    #f06292 79%,
+    #ab47bc 90%
+  );
+
+  --br_box: 20px;
+  --br_button: 50px;
+  --br_input: 50px;
+
+  --topbar_ds: flex;
+  --topbar_text: 'Complete o checkout para finalizar seu pedido!';
+  --topbar_text_size: 15px;
+  --topbar_bg: var(--default_color);
+  --topbar_color: var(--white);
+
+  --tag_desconto_ds: block;
+  --tag_desconto: 'DESCONTO ATIVO';
+  --tag_desconto_bg: var(--white);
+  --tag_desconto_br: var(--default_color);
+
+  --tag_card_ds: block;
+  --tag_card: 'APROVAÇÃO IMEDIATA';
+  --tag_card_bg: var(--default_color);
+
+  --tag_pix_ds: block;
+  --tag_pix: 'APROVAÇÃO IMEDIATA';
+  --tag_pix_bg: var(--default_color);
+
+  --tag_boleto_ds: block;
+  --tag_boleto: 'APROVAÇÃO EM 3 DIAS';
+  --tag_boleto_bg: var(--default_color);
+
+  --tag_b4: 'ÚLTIMO DIA DE PROMOÇÃO';
+  --tag_b4_bg: var(--default_color);
+  --tag_b4_color: var(--white);
+  --tag_b4_size: 13px;
+
+  --order_bump_text: 'ADICIONADO NO CARRINHO';
+
+  --footer_display: flex;
+
+  --footer_selos: url(https://lucbiel99.github.io/cartpanda-estilo/imagens/selos-de-confiabilidade_1.png);
+  --footer_selos_size: 350px;
+  --footer_selos_height: 50px;
+
+  --footer_cards: url(https://lucbiel99.github.io/cartpanda-estilo/imagens/formas-de-pagamento-pc.png);
+  --footer_cards_size: 300px;
+  --footer_cards_height: 70px;
+
+  --footer_mb_cards: url(https://lucbiel99.github.io/cartpanda-estilo/imagens/formas-de-pagamento-mb_1.png);
+  --footer_cards_mb_size: 100%;
+  --footer_cards_mb_height: 70px;
+
+  --footer_mb_cards_text: '';
+  --footer_mb_cards_text_size: 20px;
+  --footer_mb_cards_text_color: black;
+
+  --footer_text: 
+    'CNPJ: 00.000.000/0001-91' '\A'
+    'Rua Exemplo, 123 - Bairro - Cidade/UF' '\A\A'
+    '© SUA EMPRESA 2025 - Todos os direitos reservados';
+  --footer_text_size: 15px;
+
+  --footer_mb_text: 
+    'CNPJ: 00.000.000/0001-91' '\A'
+    'Rua Exemplo, 123 - Bairro - Cidade/UF' '\A'
+    '© SUA EMPRESA 2025 - Todos os direitos reservados';
+  --footer_text_mb_size: 13px;
+
+  --ico_customer: url(https://lucbiel99.github.io/cartpanda-estilo/imagens/user-check.svg);
+  --ico_shipping: url(https://lucbiel99.github.io/cartpanda-estilo/imagens/truck.svg);
+  --ico_payment: url(https://lucbiel99.github.io/cartpanda-estilo/imagens/card.svg);
+
+  --qty_button: flex;
+  --terms_ds: block;
+}
+
+/* PIX antes do Cartão */
+#accordion {
+  display: flex;
+  flex-direction: column;
+}
+.panel.panel-default.pix-pay-section {
+  order: -1;
+}
