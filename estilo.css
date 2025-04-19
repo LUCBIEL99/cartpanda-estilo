@@ -76,15 +76,15 @@
   --footer_mb_cards_text_color: black;
 
   --footer_text: 
-    'CNPJ: 00.000.000/0001-91' '\A'
-    'Rua Exemplo, 123 - Bairro - Cidade/UF' '\A\A'
-    '© SUA EMPRESA 2025 - Todos os direitos reservados';
+    'CNPJ: ' '\A'
+    '' '\A\A'
+    '© PREPARO DIGITAL 2025 - Todos os direitos reservados';
   --footer_text_size: 15px;
 
   --footer_mb_text: 
-    'CNPJ: 00.000.000/0001-91' '\A'
-    'Rua Exemplo, 123 - Bairro - Cidade/UF' '\A'
-    '© SUA EMPRESA 2025 - Todos os direitos reservados';
+    'CNPJ: ' '\A'
+    '' '\A'
+    '© PREPARO DIGITAL 2025 - Todos os direitos reservados';
   --footer_text_mb_size: 13px;
 
   --ico_customer: url(https://lucbiel99.github.io/cartpanda-estilo/imagens/user-check.svg);
